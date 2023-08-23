@@ -30,6 +30,16 @@ app.get("/users/:id", (req, res) => {
   res.end();
 });
 
+app.post("/users/add", (req, res) => {
+  const newUser = {
+    name: req.body.name,
+    email: req.body.email,
+  };
+  res.status(201);
+  res.send(newUser);
+  res.end();
+});
+
 app.listen(PORT, (error) => {
   if (!error)
     console.log(
