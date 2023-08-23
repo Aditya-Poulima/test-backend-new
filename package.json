@@ -1,0 +1,19 @@
+{
+  "name": "testbackend",
+  "version": "1.0.0",
+  "description": "test the vercel hosting",
+  "main": "testFile.js",
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node testFile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
